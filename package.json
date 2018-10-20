@@ -1,0 +1,38 @@
+{
+  "name": "smartnation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "pm2 start dist/app.js",
+    "build": "babel lib -d dist",
+    "devstart": "nodemon --watch ./ --exec babel-node ./lib/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DtCarrot/SampleExpressApp.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DtCarrot/SampleExpressApp/issues"
+  },
+  "homepage": "https://github.com/DtCarrot/SampleExpressApp#readme",
+  "dependencies": {
+    "commander": "^2.19.0",
+    "download": "^7.1.0",
+    "esm": "^3.0.84",
+    "express": "^4.16.3",
+    "node-fetch": "^2.2.0",
+    "prompts": "^1.1.1",
+    "sprintf-js": "^1.1.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.1.2",
+    "@babel/core": "^7.1.2",
+    "@babel/node": "^7.0.0",
+    "@babel/preset-env": "^7.0.0",
+    "babel-core": "^7.0.0-bridge.0"
+  }
+}
