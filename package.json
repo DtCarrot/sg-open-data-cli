@@ -1,6 +1,6 @@
 {
-  "name": "smartnation",
-  "version": "1.0.0",
+  "name": "sg-open-data-api",
+  "version": "0.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/DtCarrot/SampleExpressApp.git"
+    "url": "git+https://github.com/DtCarrot/sg-open-data-cli.git"
   },
-  "author": "",
+  "author": "Darren Ong",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/DtCarrot/SampleExpressApp/issues"
+    "url": "https://github.com/DtCarrot/sg-open-data-cli/issues"
   },
-  "homepage": "https://github.com/DtCarrot/SampleExpressApp#readme",
+  "homepage": "https://github.com/DtCarrot/sg-open-data-cli#readme",
   "dependencies": {
     "commander": "^2.19.0",
     "download": "^7.1.0",
